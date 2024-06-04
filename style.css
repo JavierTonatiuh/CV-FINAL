@@ -1,0 +1,79 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.859);
+    color: aliceblue;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.presentación{
+    display: flex;
+    justify-content: flex-end ;
+    flex-direction: row-reverse;
+    
+}
+
+.profile-description{
+    text-align: center justify;
+    width: 100%;
+    margin-top: 5%;
+    
+    
+    
+}
+
+.image-profile{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    transition: transform 0.4s ease;
+    
+}
+
+.image-profile:hover img{
+    transform: rotate(360deg)
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estilo-seccion{
+    background-color: blanchedalmond;
+    color: black;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 05px;
+    margin: 10px;
+    border: 2.2px solid white;
+    
+}
+
+.estilo-seccion li{
+    list-style: none;
+}
+
+.titulos{
+    text-align: center;
+}
+
+ul{
+    display: block;
+    padding-left: 0%;
+    text-align: justify;
+}
+
+li{
+    padding-bottom: 1cm;
+}
+
+
+
+
+
